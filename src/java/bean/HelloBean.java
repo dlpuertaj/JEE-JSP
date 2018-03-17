@@ -19,10 +19,10 @@ public class HelloBean {
     public String getName(){return name;}
     public void setName(String name){this.name = name;}
     
-    public String getGello(){
+    public String getHello(){
         if(name == null)
             return "Hello every body";
         else
-            return "Hello" + name;
+            return "Hello " + name;
     }
 }
